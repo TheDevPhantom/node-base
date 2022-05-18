@@ -8,6 +8,7 @@ import users from "./routes/users.js";
 
 import errorHandler from "./middleware/error.js";
 
+// Load environment variables base on the environment set by npm
 config({ path: `./config/${process.env.NODE_ENV}.env` });
 
 // Authenticate the database

@@ -1,9 +1,6 @@
-import crypto from "crypto";
 import ErrorResponse from "../utils/ErrorResponse.js";
 import asyncHandler from "../middleware/async.js";
-// const sendEmail = require('../utils/sendEmail');
 import User from "../models/User.js";
-import Sequelize from "sequelize";
 
 // @desc      Register user
 // @route     POST /api/v1/auth/register
