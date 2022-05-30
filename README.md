@@ -1,5 +1,5 @@
 # **Node-Base**
-
+![CodeQL](https://github.com/thedevphantom/node-base/workflows/CodeQL/badge.svg)  
 This is a base [Express](https://expressjs.com/) server application fitted with authorization using [JSON Web Tokens](https://jwt.io/) and [Sequelize](https://sequelize.org/) (works with SQL Server, MySQL, PostgreSQL, SQLite etc.) as the database ORM.
 
 > Open `package.json` for the full list of dependencies
